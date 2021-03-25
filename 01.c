@@ -11,7 +11,7 @@ int main()
     {
         printf("Not Cube Free");
     }
-    else if (num>=9)
+    else if (num==9||num==10)
     {
         printf ("%d",i-1);
     }

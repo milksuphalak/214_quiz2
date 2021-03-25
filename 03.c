@@ -3,18 +3,21 @@
 int main ()
 {
    long long int num,i,n=0,j;
-    char a[]="123456789";
+      int a[]={1,2,3,4,5,6,7,8,9,11,22,33,44,55,66,77,88,99};
     scanf ("%lld",&num);
     for(i=1;i<num;i++)
     {
-        for (j=1;;j++)
+        for (j=1;j<a;j++)
         {
-            if(i==a)
+            if(i==j)
             {
-            n++;
+                 n++;
+
             }
         }
+
     }
-    printf ("%lld",n);
+printf ("%lld",n);
+
     return 0;
 }
