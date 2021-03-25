@@ -1,10 +1,20 @@
 #include <stdio.h>
+#include <string.h>
 int main ()
 {
-    int num,i,n;
-    scanf ("%d",&num);
+   long long int num,i,n=0,j;
+    char a[]="123456789";
+    scanf ("%lld",&num);
     for(i=1;i<num;i++)
     {
-        printf ("%d",i);
+        for (j=1;;j++)
+        {
+            if(i==a)
+            {
+            n++;
+            }
+        }
     }
+    printf ("%lld",n);
+    return 0;
 }
